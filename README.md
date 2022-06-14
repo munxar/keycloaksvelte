@@ -1,9 +1,9 @@
 # SvletKit and KeyCloak
 
-## init a basic sveltekit projekt
+## install
 
 ```bash
-npm init svelte@next
+npm i
 ```
 
 ## local KeyCloak setup with docker
@@ -26,3 +26,10 @@ docker-compose down
 note: you find the credentials for the keycloak admin in the docker-compose.yaml 
 admin / Pa55w0rd
 
+## create a realm / clientId / user in keycloak
+keycloak-demo / app-svelte / myuser
+
+## run the frontend
+```bash
+npm run dev
+```
